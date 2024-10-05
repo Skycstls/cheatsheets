@@ -1,0 +1,106 @@
+{
+  "empresa": "Tech Innovators",
+  "ubicacion": {
+    "pais": "España",
+    "ciudad": "Barcelona",
+    "direccion": {
+      "calle": "Gran Via",
+      "numero": 123,
+      "codigo_postal": "08010"
+    }
+  },
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 30,
+      "posicion": "Desarrollador",
+      "habilidades": ["JavaScript", "React", "Node.js"],
+      "proyectos": [
+        {
+          "nombre": "Proyecto A",
+          "duracion_meses": 12,
+          "rol": "Lider"
+        },
+        {
+          "nombre": "Proyecto B",
+          "duracion_meses": 6,
+          "rol": "Desarrollador"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Gómez",
+      "edad": 28,
+      "posicion": "Diseñadora UX",
+      "habilidades": ["Photoshop", "Sketch", "Figma"],
+      "proyectos": [
+        {
+          "nombre": "Proyecto C",
+          "duracion_meses": 8,
+          "rol": "Diseñadora Principal"
+        },
+        {
+          "nombre": "Proyecto B",
+          "duracion_meses": 6,
+          "rol": "Diseñadora"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro Martínez",
+      "edad": 35,
+      "posicion": "Gerente de Proyectos",
+      "habilidades": ["Gestión de proyectos", "Agile", "Scrum"],
+      "proyectos": [
+        {
+          "nombre": "Proyecto A",
+          "duracion_meses": 12,
+          "rol": "Gerente"
+        },
+        {
+          "nombre": "Proyecto D",
+          "duracion_meses": 10,
+          "rol": "Gerente"
+        }
+      ]
+    }
+  ],
+  "departamentos": [
+    {
+      "nombre": "Desarrollo",
+      "presupuesto": 500000,
+      "empleados": [1, 3]
+    },
+    {
+      "nombre": "Diseño",
+      "presupuesto": 200000,
+      "empleados": [2]
+    },
+    {
+      "nombre": "Recursos Humanos",
+      "presupuesto": 150000,
+      "empleados": []
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "Cliente 1",
+      "industria": "Finanzas",
+      "contacto": {
+        "nombre": "Luis Garcia",
+        "email": "luis@cliente1.com"
+      }
+    },
+    {
+      "nombre": "Cliente 2",
+      "industria": "Salud",
+      "contacto": {
+        "nombre": "Maria Fernandez",
+        "email": "maria@cliente2.com"
+      }
+    }
+  ]
+}
