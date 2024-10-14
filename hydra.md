@@ -24,6 +24,17 @@ hydra -L users -P rockyou.txt mysql://192.168.0.1 # mysql
 
 ## http-post-form
 
+Formularios HTTP post
+
 ```bash
 hydra -l admin -p admin 192.168.0.1 http-post-form '/http-login:name=^USER^&password=^PASS^:Invalid credentials'
+hydra -s 3000 -l admin -p 1234 localhost http-post-form "/login:user=^USER^&password=^PASS^:Login incorrecto"
+```
+
+## http-get
+
+Validaciones básicas http con esquema Basic realm
+
+```
+hydra -l admin -P passwords localhost -s 3000 http-get /protected
 ```
